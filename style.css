@@ -1,0 +1,113 @@
+#chart {
+	font: 13px sans-serif;  
+	margin: auto;
+}
+
+.labels {
+	fill: black;
+	font-size:8px;
+}
+
+
+.radial{
+	background:#3182bd;
+}
+.chart{
+	
+}
+
+.axis {
+
+}
+
+
+.streamView .axis .minor {
+  stroke-opacity: 0.5;
+  stroke:#3182bd;
+  stroke-width:1px;
+}
+
+
+.axis path {
+  display:none;
+  stroke:#3182bd;
+}
+
+
+.sourceNodes{
+	fill:#3182bd;
+	stroke:white;
+}
+.link{
+	stroke-opacity: 0.5;
+	stroke: #3182bd;
+	fill: none;
+}
+
+.chart-title {
+	position:absolute;
+	top:10px;
+	top: 10px;
+	left:10px;
+	font-size: 20px;
+	text-align: center;
+	width:100%;
+}
+
+
+.radial-view-time-slider{
+	position:absolute;
+	top:40px;
+	left:10px;
+	font-size: 14px;
+	width:100%;
+}
+
+.config-toolbar{
+	position:absolute;
+	top: 30px;
+}
+
+
+.config-panel-item{
+	//position:absolute;
+	width: 90px;
+	margin-top: 0px;
+	text-align: center;
+	padding: 5px 5px 5px 0px;
+	
+}
+
+.config-panel{
+	border-radius: 5px;
+	position:absolute;
+	top: 60px;
+	right:10px;
+	width: 500px
+	height: 400px;
+	padding: 10px;
+	/*opacity:0.5;*/
+	color: white;
+	background-color: #463E41;
+	font-size: 13px;
+	
+}
+
+.small {
+font-size:10px;
+}
+.config-panel:hover {
+	opacity: 0.8;
+}
+
+
+
+.p {
+	color:white;
+}
+
+.target path{
+	
+}
+
+
